@@ -1,0 +1,29 @@
+:root {
+  --primary-branding-color: #15489a;
+  --secondary-color: #cf2527;
+  --light-branding-color: #f7f3ff;
+  --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Prompt", sans-serif;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 54px;
+}
+
+img {
+  max-width: 100%;
+  margin: 30;
+}
+
+a,
+.btn,
+.contact-links {
+  background-color: var(--primary-branding-color);
+  color: var(--light-branding-color);
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}

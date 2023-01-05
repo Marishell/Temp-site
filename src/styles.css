@@ -27,3 +27,28 @@ a,
   text-decoration: none;
   box-shadow: var(--box-shadow);
 }
+
+.nav-content,
+.nav-link {
+  color: var(--primary-branding-color);
+  background-color: var(--light-branding-color);
+}
+
+.nav-content .nav-link:active {
+  color: var(--primary-branding-color);
+}
+
+.nav-content:hover {
+  background-color: var(--primary-branding-color);
+  color: var(--light-branding-color);
+  text-decoration: none;
+}
+
+.nav-logo {
+  cursor: default;
+}
+
+.nav-logo:hover {
+  color: var(--primary-branding-color);
+  background-color: var(--light-branding-color);
+}
